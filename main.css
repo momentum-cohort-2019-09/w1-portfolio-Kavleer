@@ -1,0 +1,102 @@
+/* Home
+
+Name Large Bold
+
+Navigation menu with Home Projects Resume
+
+Picture of self
+
+About text 
+
+For desktop : all other items to right of name and 
+picture 
+*/
+
+/* Projects */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+@media screen and (min-width: 992px) {
+    .top{
+        display:flex;
+    }
+    .main {
+        display: flex;
+    }
+    .text{
+        padding-left: 2rem;
+    }
+    .head{
+        padding-left: 0;
+    }
+    .info{
+        display:flex;
+    }
+    .project{
+        display: flex;
+    }
+    .contacts{
+        display: flex;
+    }
+    .dates{
+        display: flex;
+    }
+}
+
+body{
+    padding-left:1rem;
+}
+/* .top{
+    display:flex;
+} */
+
+.head{
+    /* display:flex; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* display:inline-block; */
+}
+.navbar{
+    /* display:inline-block; */
+    /* orientation: right; */
+    /* padding: 0; */
+}
+.links li{
+    /* list-style-type: none; */
+    display: inline;
+    /* padding-left: 0; */
+    padding-right: 3rem;
+    /* margin:0; */
+}
+
+.links a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+.info{
+    display:block;
+}
+
+.important{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description{
+
+}
+
+img{
+    /* display: block; */
+    max-width: 35%;
+}
